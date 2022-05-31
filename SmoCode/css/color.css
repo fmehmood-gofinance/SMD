@@ -44,7 +44,7 @@ ul.slimmenu li a.mPS2id-highlight,
 .checkout-wrap .name:hover,
 .checkout-wrap .total,
 .prices-wrap.colored p {
-    color: #e87638;
+	color: #17b5d2;
 }
 #royal_preloader.royal_preloader_progress .royal_preloader_meter,
 .list-social-footer li:hover,
@@ -71,7 +71,8 @@ ul.slimmenu li a.mPS2id-highlight,
 .link-tag a:hover,
 .comments button,
 .checkout-button:hover {
-	background-color: #e87638;
+	background-color: #17b5d2;
+	;
 }
 .audiojs .progress,
 .price-description button {
