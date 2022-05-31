@@ -358,7 +358,7 @@ body.royal_preloader {
 	transition : all 0.3s ease-out;
 }
 .cbp-af-header.cbp-af-header-shrink .logo {
-	top:27px;
+	top:5px;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
@@ -431,8 +431,8 @@ body.royal_preloader {
 }
 .logo{
 	position:absolute;
-	z-index:10000;
-	top:45px;
+	z-index: 10000;
+	top: 15px;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
@@ -1784,7 +1784,7 @@ ul.tabs.light li.current,
 }
 
 .parallax-1 {
-	background-repeat: repat;
+	background-repeat: repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	position: absolute;
