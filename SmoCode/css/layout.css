@@ -2677,27 +2677,65 @@ ul.countdown li p {
 	z-index:2;
 	display:block;
 }
-.quote-sep{
+.quote-sep {
+    box-sizing: border-box;
+    border-bottom: 4px solid #333;
 	position:relative;
 	margin:0 auto;
 	width:100%;
-	text-align:center;
-	overflow:hidden;
+	text-align:left;
 	display:block;
-	padding-top:30px;
-	padding-bottom:50px;
-	background-image:url('../images/qu.png');
-	background-repeat:no-repeat;
-	background-position: top center;
+    padding-left: 100px;
+	padding-top:20px;
+	padding-bottom:30px;
+    cursor: pointer;
+    transition: all 0.25s;
+    margin-bottom: 150px;
+}
+
+.quote-sep::after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    width: 15px;
+    height: 15px;
+    background-color: #181818;
+    border-right: 6px solid #333;
+    border-top: 3.5px solid #333;
+    left: 100px;
+    transform: skew(30deg) rotate(134deg);
+    transition: all 0.25s;
+}
+.quote-sep i {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    font-size: 2.5em;
+    color: #333;
+    transition: all 0.25s;
+}
+
+.quote-sep:hover {
+    border-color: #16b5d2;
+}
+
+.quote-sep:hover::after {
+    border-color: #16b5d2;
+}
+.quote-sep:hover i {
+    color: #16b5d2;
+}
+.quote-sep p{
+    font-size: 16px;
 }
 .quote-sep h4{
-	text-align:center;
-	margin:0 auto;
-	font-style: italic;
-	color:#c8c8c8;
-	font-weight:300;
-	width:100%;
-	max-width:830px;
+    text-align:center;
+    margin:0 auto;
+    font-style: italic;
+    color:#c8c8c8;
+    font-weight:300;
+    width:100%;
+    max-width:830px;
 }
 #owl-sep-1.owl-theme .owl-controls{
 	position:absolute;
@@ -5186,4 +5224,78 @@ ul.countdown li p {
 
 .padding-top-bottom-60 {
     padding: 60px 0;
+}
+
+/*
+    /* Testimonials
+*/
+
+.client-sep {
+    position: absolute;
+    height: 150px;
+    bottom: -210px;
+    padding-left: 80px;
+}
+
+.hexagon {
+    top: 0;
+    left: -10px;
+    position: absolute;
+    margin: 0 auto;
+    background-color: #333;
+    border-radius: 10px;
+    width: 70px; 
+    height: 46px;
+    box-sizing: border-box;
+    transition: all 0.25s;
+    border: 0.4vh solid transparent;
+}
+  
+/* Creating pseudo-class */
+.hexagon:before, .hexagon:after {
+    content: "";
+    border: inherit;
+    position: absolute;
+    top: -0.5vh;
+    left: -0.5vh;
+    background-color: #333;
+    border-radius: inherit;
+    height: 100%;
+    width: 100%;
+    transition: all 0.25s;
+}
+  
+/* Align them in such a way
+that they form a hexagon */
+.hexagon:before {
+    transform: rotate(60deg);
+}
+.hexagon:after {
+    transform: rotate(-60deg);
+}
+
+.quote-sep:hover .hexagon,
+.quote-sep:hover .hexagon:before,
+.quote-sep:hover .hexagon:after {
+    background-color: #16b5d2;
+}
+
+.client-info {
+    text-align: left;
+}
+
+.client-info h4 {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-style: normal;
+}
+
+.client-info p {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.quote-sep:hover .client-info p {
+    color: #16b5d2;
 }
