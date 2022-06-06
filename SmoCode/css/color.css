@@ -76,7 +76,7 @@ ul.slimmenu li a.mPS2id-highlight,
 }
 .audiojs .progress,
 .price-description button {
-	background: #e87638;
+	background: #16b5d2;
 }
 #filter li .current,
 #filter li a:hover  {
@@ -86,41 +86,41 @@ ul.slimmenu li a.mPS2id-highlight,
 #ajax-form input:focus,
 #ajax-form textarea:active,
 #ajax-form input:active {	
-	border-bottom:1px solid #e87638;
+	border-bottom:1px solid #16b5d2;
 }
 .menu.light #ajax-form textarea:focus,
 .menu.light #ajax-form input:focus,
 .menu.light #ajax-form textarea:active,
 .menu.light #ajax-form input:active {	
-	border-bottom:1px solid #e87638;
+	border-bottom:1px solid #16b5d2;
 }
 .comments textarea:focus,
 .comments input:focus,
 .comments textarea:active,
 .comments input:active {	
-	border-bottom:1px solid #e87638;
+	border-bottom:1px solid #16b5d2;
 }
 .gu-box{
-	border-left:2px solid #e87638;
+	border-left:2px solid #16b5d2;
 }
 .sidebar input:-ms-input-placeholder  {
-	color:#e87638;
+	color:#16b5d2;
 }
 .sidebar input::-moz-placeholder  {
-	color:#e87638;
+	color:#16b5d2;
 }
 .sidebar input:-moz-placeholder  {
-	color:#e87638;
+	color:#16b5d2;
 }
 .sidebar input::-webkit-input-placeholder  {
-	color:#e87638;
+	color:#16b5d2;
 }
 
 ::selection {
-	background: #e87638;
+	background: #16b5d2;
 }
 ::-moz-selection {
-	background: #e87638;
+	background: #16b5d2;
 }
 
 
